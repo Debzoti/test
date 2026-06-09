@@ -10,7 +10,9 @@ export default defineConfig({
   },
 
   plugins: [devtools(), tailwindcss(), tanstackStart(), viteReact()],
-
+  preview: {
+    allowedHosts: ["*.tt.debzoti.qzz.io"],
+  },
   server: {
     cors: {
       origin: ["*"],
