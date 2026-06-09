@@ -12,11 +12,8 @@ export default defineConfig({
   plugins: [devtools(), tailwindcss(), tanstackStart(), viteReact()],
 
   server: {
-    host: "0.0.0.0",
-    port: 3000,
-    strictPort: true,
     cors: {
-      origin: ["https://app2.tt.debzoti.qzz.io"],
+      origin: ["*"],
     },
   },
 });
