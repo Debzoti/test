@@ -11,9 +11,9 @@ export default defineConfig({
 
   plugins: [devtools(), tailwindcss(), tanstackStart(), viteReact()],
   preview: {
-    allowedHosts: ["*.tt.debzoti.qzz.io"],
+    allowedHosts: true,
   },
   server: {
-    allowedHosts: ["*.tt.debzoti.qzz.io"],
+    allowedHosts: true,
   },
 });
