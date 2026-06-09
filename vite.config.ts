@@ -14,8 +14,6 @@ export default defineConfig({
     allowedHosts: ["*.tt.debzoti.qzz.io"],
   },
   server: {
-    cors: {
-      origin: ["*"],
-    },
+    allowedHosts: ["*.tt.debzoti.qzz.io"],
   },
 });
